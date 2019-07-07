@@ -1,0 +1,54 @@
+/*font-family: 'Rubik Mono One', sans-serif;*/
+/*font-family: 'Heebo', sans-serif;*/
+
+body {
+    background-color: red;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    justify-content: center
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.2em;
+    padding: 20px;
+    
+}
+h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 2.5em; 
+}
+.bela-container{
+    display: flex;
+    max-width: 1000px;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    margin: auto;
+}
+
+.col-1{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-2 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.story-intro{
+    margin-top: 50px;
+    color: #fff;
+}
+.chat-box {
+
+    margin-top: 50px;
+    background-color:#ec9c9c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    height: 600px;
+}
